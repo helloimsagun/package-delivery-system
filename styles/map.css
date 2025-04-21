@@ -1,0 +1,62 @@
+
+.hidden {
+    display: none;
+}
+
+
+.map-container {
+    margin: 20px auto; /* Centers the container horizontally */
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    max-width: 90vw; /* Set a reasonable maximum width for the map container */
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.form-group {
+    margin: 15px 20px; /* Add margin to the top and sides of the form groups */
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form-group input[readonly] {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px; /* Add margin around the button */
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
